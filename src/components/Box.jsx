@@ -31,7 +31,7 @@ export default function Box() {
             </div>
             <div className="letter">
                 <p><i class="fa-solid fa-pen fa-sm"></i> Letter</p>
-                <p>{text.length}</p>
+                <p>{text.trim().length}</p>
             </div>
             <div className="paragraph">
                 <p><i class="fa-solid fa-book fa-sm"></i> Paragraph</p>
